@@ -26,7 +26,7 @@ end
 
 def full?(board)
 board.all? { |index| index == "X" || index == "O" }
-return false
+return true
 
 end
 
